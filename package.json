@@ -1,0 +1,61 @@
+{
+  "name": "react-native-brele",
+  "version": "0.0.1",
+  "description": "Set of design and components for React Native",
+  "main": "src/index.js",
+  "files": [
+    "src/",
+    "types.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "flow": "flow",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "react-native-component",
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "tab",
+    "swipe",
+    "scrollable",
+    "coverflow"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelzomer/react-native-brele.git"
+  },
+  "author": "Rafael Zomer Antunes <rafaelzomer@gmail.com> (https://github.com/rafaelzomer/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelzomer/react-native-brele/issues"
+  },
+  "homepage": "https://github.com/rafaelzomer/react-native-brele#readme",
+  "dependencies": {
+    "@expo/vector-icons": "^6.2.0",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.12.1",
+    "eslint-config-satya164": "^1.0.1",
+    "eslint-plugin-react-native-globals": "^0.1.0",
+    "flow-bin": "~0.56.0",
+    "jest": "^21.2.1",
+    "prettier": "^1.8.2",
+    "react": "16.2.0",
+    "react-dom": "16.0.0",
+    "react-native": "0.52.0",
+    "react-test-renderer": "16.2.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
